@@ -1,0 +1,126 @@
+.header  {
+    font-family: monospace;
+    background: papayawhip;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+    
+  }
+  
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+
+  /* modal */
+
+  .container2 {
+
+    display:flex;
+  }
+
+  img {
+    max-width: 50%;
+    
+    height: auto;
+    margin-left: auto;
+    margin-top: -266px;
+    padding: 17px;
+   
+ 
+  
+  }
+  
+
+  .header2 {
+   
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+  }
+ 
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background: #aaa;
+    color: #333;
+    /* I'll give you this one for free */
+    height:900px;
+   
+    display: flex;
+flex-direction:column;
+
+
+ 
+  }
+  
+  .modal {
+    background: white;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    display: flex;
+    margin: 16px;
+    height:200px;
+   
+    flex-wrap: wrap;
+    
+   
+    gap: 16px;
+    padding: 17px;
+  }
+  
+  
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  
+  button.continue {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+  }
+  
+  button.cancel {
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+  }
+  
+  .text {
+    margin-bottom: 16px;
+
+  }
+  
+  
+  
+ 
