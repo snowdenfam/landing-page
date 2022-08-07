@@ -77,10 +77,23 @@
    
     display: flex;
 flex-direction:column;
-
-
- 
   }
+
+  .fwh-slide {
+    height:100vh;
+    background:skyblue;
+    box-sizing: border-box;
+  }
+
+  .fwh-slide2 {
+    height:100vh;
+    background:red;
+    box-sizing: border-box;
+  }
+
+  /* I learned how to make multiple pages into one long page with this youtube video : https://www.youtube.com/watch?v=vFzUVINwnFo&ab_channel=dcode */ 
+
+
   
   .modal {
     background: white;
