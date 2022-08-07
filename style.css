@@ -87,9 +87,29 @@ flex-direction:column;
 
   .fwh-slide2 {
     height:100vh;
-    background:red;
+    background:gold;
     box-sizing: border-box;
   }
+
+
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+    padding:30px;
+    color:black;
+    display:flex;
+  
+  }
+
+  .cardcontainer {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
 
   /* I learned how to make multiple pages into one long page with this youtube video : https://www.youtube.com/watch?v=vFzUVINwnFo&ab_channel=dcode */ 
 
