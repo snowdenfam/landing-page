@@ -36,10 +36,13 @@
 
   /* modal */
 
-  .container2 {
+  .container{
 
     display:flex;
+    justify-content: center;
   }
+
+  /** discord @mireles gave me the idea to put both of the modals inside a container to make them sit side by side with each other. */
 
   img {
     max-width: 50%;
@@ -48,8 +51,6 @@
     margin-left: auto;
     margin-top: -266px;
     padding: 17px;
-   
- 
   
   }
   
@@ -91,6 +92,7 @@ flex-direction:column;
     height:200px;
    
     flex-wrap: wrap;
+    
     
    
     gap: 16px;
