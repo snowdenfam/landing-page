@@ -60,6 +60,9 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 8px;
+    display:flex;
+    justify-content: center;
+ 
 
   }
  
@@ -91,22 +94,54 @@ flex-direction:column;
     box-sizing: border-box;
   }
 
+  .fwh-slide3 {
+    height:100vh;
+    background:white;
+    box-sizing: border-box;
+  }
+
 
   .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
-    padding:30px;
+    padding:25px;
     color:black;
     display:flex;
   
   }
 
+  .card2 {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 4px;
+   margin-left: 50px;
+   margin-right: 50px;
+   margin-top:30px;
+
+    padding:25px;
+    color:black;
+    display:flex;
+   
+  
+  }
+
   .cardcontainer {
-    padding: 100px;
+   
     display: flex;
     justify-content: center;
     
+  }
+
+  .pcontainer {
+
+   
+  }
+
+  .box {
+
+  
+
   }
 
 
