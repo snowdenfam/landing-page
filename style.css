@@ -1,21 +1,49 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background-image: url("sax.jpg");
+ display: flex;
+flex-direction:column;
+}
+
+
 .header  {
     font-family: monospace;
-    background: papayawhip;
+    background: rgba(0,0,0,0,6);
     padding: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
   }
+
+  .logocontainer{
+
+    display:flex;
+  }
+
   
   .logo {
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 900;
-    color: tomato;
-    background: white;
+    color: orange;
+    background: rgba(0,0,0,0,6);
     padding: 4px 32px;
+    background-color:white;
+    width:200px;
+    display:flex;
+ text-align:center;
+margin-left:1000px;
+    margin-top:130px;
+    border-radius: 17%;
     
   }
+
+
   
   ul {
     /* this removes the dots on the list items*/
@@ -24,182 +52,51 @@
     margin: 0;
     padding: 0;
     gap: 8px;
+    
   }
   
   a {
     font-size: 22px;
-    background: white;
+    background: rgba(0,0,0,0,6);
+    color:white;
     padding: 8px;
     /* this removes the line under the links */
     text-decoration: none;
   }
 
-  /* modal */
-
-  .container{
-
-    display:flex;
-    justify-content: center;
-  }
+ 
 
   /** discord @mireles gave me the idea to put both of the modals inside a container to make them sit side by side with each other. */
-
-  img {
-    max-width: 50%;
-    
+ img {
     height: auto;
-    margin-left: auto;
-    margin-top: -266px;
-    padding: 17px;
-  
-  }
-
-  .footer {
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  padding:30px;
-  }
-  
-  
-
-  .header2 {
-   
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    display:flex;
-    justify-content: center;
- 
-
-  }
- 
-  html, body {
-    height: 100%;
-  }
-  
-  body {
-    font-family: Roboto, sans-serif;
-    margin: 0;
-    background: #aaa;
-    color: #333;
-    /* I'll give you this one for free */
-    height:900px;
-   
-    display: flex;
-flex-direction:column;
+background-size: cover;
   }
 
   .fwh-slide {
     height:100vh;
-    background:skyblue;
     box-sizing: border-box;
   }
 
-  .fwh-slide2 {
-    height:100vh;
-    background:gold;
-    box-sizing: border-box;
-  }
-
-  .fwh-slide3 {
-    height:100vh;
-    background:white;
-    box-sizing: border-box;
-  }
-
-  .fwh-slide4 {
-    height:100vh;
-    background:beige;
-    box-sizing: border-box;
+ #mc_embed_signup{background:orange;  font:14px Helvetica,Arial,sans-serif;  width:600px;
+  display:flex;
+  justify-content: center;
+ margin-left:auto;
+  margin-right:auto;
+  margin-top: 190px;
+  background:rgba(_red_, _green_, _blue_, _transparency_);
+  border: 15px solid white;
+  border-radius: 20%;
   }
 
 
-  .card {
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-    padding:25px;
-    margin-bottom:80px;
-    color:black;
-    display:flex;
   
-  }
-
-  .card2 {
-    border: 1px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
-   margin-left: 50px;
-   margin-right: 50px;
-   margin-top:30px;
-   margin-bottom:80px;
-
-    padding:25px;
-    color:black;
-    display:flex;
-   
   
-  }
-
-  .cardcontainer {
-   
-    display: flex;
-    justify-content: center;
-    gap:50px;
-    margin-left:30px;
-    margin-right:30px;
-    
-  }
-
-
 
 
   /* I learned how to make multiple pages into one long page with this youtube video : https://www.youtube.com/watch?v=vFzUVINwnFo&ab_channel=dcode */ 
 
 
   
-  .modal {
-    background: white;
-    width: 350px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    display: flex;
-    margin: 16px;
-    height:200px;
-   
-    flex-wrap: wrap;
-    
-    
-   
-    gap: 16px;
-    padding: 17px;
-  }
-  
-  
-  
-  button {
-    padding: 8px 16px;
-    border-radius: 8px;
-  }
-  
-  button.continue {
-    background: royalblue;
-    border: 1px solid royalblue;
-    color: white;
-  }
-  
-  button.cancel {
-    background: white;
-    border: 1px solid #ddd;
-    color: royalblue;
-  }
-  
-  .text {
-    margin-bottom: 16px;
-
-  }
   
   
   
