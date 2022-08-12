@@ -84,7 +84,8 @@ background-size: cover;
  margin-left:auto;
   margin-right:auto;
   margin-top: 190px;
-  background:rgba(_red_, _green_, _blue_, _transparency_);
+  color:white;
+  
   border: 15px solid white;
   border-radius: 20%;
   }
